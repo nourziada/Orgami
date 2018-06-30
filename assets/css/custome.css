@@ -78,3 +78,6 @@ time, mark, audio, video {
 .xs-blog-post-comment .comment-content{
     padding-right: 110px;
 }
+.xs-post-entry-title {
+    font-size: 1.4em;
+}
