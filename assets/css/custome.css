@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'cocon';
+    src: url('../fonts/CoconNextArabicLight.eot');
+    src: url('../fonts/CoconNextArabicLight.eot') format('embedded-opentype'),
+         url('../fonts/CoconNextArabicLight.woff2') format('woff2'),
+         url('../fonts/CoconNextArabicLight.woff') format('woff'),
+         url('../fonts/CoconNextArabicLight.ttf') format('truetype'),
+         url('../fonts/CoconNextArabicLight.svg#CoconNextArabicLight') format('svg');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-moz-transition: all ease-in-out 0.2s;
+	-ms-transition: all ease-in-out 0.2s;
+	-webkit-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    font-family: cocon;
+}
+.ltr{direction: ltr;}
+.xs-top-bar-info.right-content{
+    text-align: left;
+}
+.xs-content-header .xs-content-title{
+    float: right;
+}
+.xs-content-header.version-2 .xs-simple-btn {
+    float: left;
+}
+.xs-newsletter{
+    direction: ltr;
+}
+.xs-logo-wraper{
+    padding: 12px 0 0;
+}
+.xs-header{
+    padding-bottom: 0px;
+}
+.xs-newsLetter-section.v-yellow .newsletter-content i{
+    margin-left: 18px;
+    margin-right: 0;
+}
+.xs-tab-nav .nav-item{
+    margin-left: 35px;
+    margin-right: 0;
+}
+.xs-miniCart-menu.show{
+    right: -66px;
+}
