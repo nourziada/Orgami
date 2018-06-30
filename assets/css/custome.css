@@ -63,3 +63,18 @@ time, mark, audio, video {
 .xs-miniCart-menu.show{
     right: -66px;
 }
+.xs-copyright .xs-social-list {
+    text-align: left;
+}
+.xs-serachForm input:not([type="submit"]){
+    float: right;
+}
+.xs-blog-post-comment .comment-meta b, .xs-blog-post-comment .comment-meta .comment-metadata {
+    padding-right: 21px;
+}
+.xs-blog-post-comment .comment-meta .comment-metadata {
+    margin-right: 90px;
+}
+.xs-blog-post-comment .comment-content{
+    padding-right: 110px;
+}
