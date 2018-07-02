@@ -89,7 +89,21 @@ time, mark, audio, video {
 .padding-50px-bottom{
     padding-bottom: 50px;
 }
+.padding-50px{
+    padding:50px 0 ;
+}
+
 .xs-content-header .xs-content-title{
     float: unset;
     text-align: center;
+}
+.xs-menus .nav-menu > li > a{
+    padding: 40px 9px;
+}
+.bg-videos{
+    background: #ffc4ba;
+}
+.post-meta i{
+    padding-left: 8px;
+    padding-right: 0px;
 }
