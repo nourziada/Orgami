@@ -107,3 +107,7 @@ time, mark, audio, video {
     padding-left: 8px;
     padding-right: 0px;
 }
+.page-item.active .page-link{
+    background-color: #ffd19a;
+    border-color: #ea9e42;
+}
