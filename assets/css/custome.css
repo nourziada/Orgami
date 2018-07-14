@@ -117,3 +117,26 @@ time, mark, audio, video {
 .product-title a{
     font-size:19px;
 }
+.custom-cart{
+    width: 100%;
+    padding: 15px;
+}
+
+
+.custom-cart .btn-cancel {
+    background-color: transparent;
+    color: #dc3545;
+    border-color: transparent;
+    padding: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.custom-cart .img-product{    float: right;}
+.custom-cart .title-product{
+    height: 50px;
+    display: block;
+    float: right;
+}
+.custom-cart .form-control{
+    width: 100px;
+}
