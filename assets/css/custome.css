@@ -165,3 +165,8 @@ time, mark, audio, video {
 .cart_totals_area strong{
     font-weight: bold;
 }
+
+.profile .xs-content-title{
+padding-bottom: 15px;
+color:#dc3545;
+}
