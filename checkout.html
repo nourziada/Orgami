@@ -278,7 +278,7 @@
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="index.html"> الرئيسية</a></li>
-				<li class="breadcrumb-item active" aria-current="page">المقالات</li>
+				<li class="breadcrumb-item active" aria-current="page">checkout</li>
 			</ol>
 		</nav>
 	</div>
@@ -286,15 +286,83 @@
 <!--breadcumb end here--><!-- End welcome section -->
 
 <!-- blog list section -->
-<div class="xs-blog-list xs-section-padding">
+<div class="xs-blog-list xs-section-padding padding-50px">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-8">
-
+            <div class="col-md-12 col-lg-7">
+                    <form action="#" method="POST" id="xs-contact-form" class="xs-contact-form">
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <h3 class="h3">Name</h3>
+                                        <input type="text" class="form-control" id="xs_contact_name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <h3 class="h3">Email</h3>
+                                        <input type="email" class="form-control" id="xs_contact_email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <h3 class="h3">moible</h3>
+                                <input type="text" class="form-control" id="xs_contact_subject">
+                            </div>
+                           
+                            <div class="xs-btn-wraper">
+                                <input type="submit" name="submit" value="Get A Query" id="xs_contact_submit" class="btn btn-primary badge badge-pill btn-lg">
+                            </div>
+                        </form><!-- .xs-contact-form #xs-contact-form END -->
             </div>
-            <div class="col-md-12 col-lg-4">
+            <div class="col-md-12 col-lg-5">
                 <!-- sidebar content -->
                 <div class="sidebar sidebar-right">
+                        <table class="table custom-cart">
+                                <thead>
+                                    <tr> 
+                                        <th>#</th>
+                                        <th>المنتج</th>
+                                        <th>سعر المنتج</th>
+                                        <th>العدد</th>
+                                        <th>حذف</th>
+                                  </tr> 
+                              </thead>
+                               <tbody> 
+                                   <tr> 
+                                       <th scope="row">1</th> 
+                                       <td>
+                                           <div class="img-product"><img src="http://demo.xpeedstudio.com/html/marketpress/assets/images/mini-cart/mini-cart1.jpg" width="30" alt=""></div>
+                                          <div class="title-product">عنوان المنتج</div>
+                                          </td> 
+                                       <td>50$</td> 
+                                       <td><input type="number" class="form-control" value="5" id=""></td> 
+                                       <td><button class="btn-cancel pull-right">x</button></td> 
+                                  </tr> 
+                                  
+                                  <tr> 
+                                          <th scope="row">1</th> 
+                                          <td>
+                                              <div class="img-product"><img src="http://demo.xpeedstudio.com/html/marketpress/assets/images/mini-cart/mini-cart2.jpg" width="30" alt=""></div>
+                                             <div class="title-product">عنوان المنتج</div>
+                                             </td> 
+                                          <td>50$</td> 
+                                          <td><input type="number" class="form-control" value="5" id=""></td> 
+                                          <td><button class="btn-cancel pull-right">x</button></td> 
+                                     </tr> 
+                                     <tr> 
+                                          <th scope="row">1</th> 
+                                          <td>
+                                              <div class="img-product"><img src="http://demo.xpeedstudio.com/html/marketpress/assets/images/mini-cart/mini-cart3.jpg" width="30" alt=""></div>
+                                             <div class="title-product">عنوان المنتج</div>
+                                             </td> 
+                                          <td>50$</td> 
+                                          <td><input type="number" class="form-control" value="5" id=""></td> 
+                                          <td><button class="btn-cancel pull-right">x</button></td> 
+                                     </tr> 
+                                  </tbody> 
+                                 
+                              </table> 
                 </div>                
                 <!-- End sidebar content -->
             </div>
