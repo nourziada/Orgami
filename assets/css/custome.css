@@ -140,3 +140,28 @@ time, mark, audio, video {
 .custom-cart .form-control{
     width: 100px;
 }
+.cart_totals_area.gray-bg{
+    padding: 15px;
+    background: #f8f8f8;
+}
+.cart_totals_area {
+    background-color: #F8F8F8;
+    color: #000000;
+}
+.cart_totals_area li {
+    overflow: hidden;
+    padding-bottom: 14px;
+}
+.cart_totals_area li span {
+    float: left;
+}
+.cart_page input {
+    width: 100%;
+    border: 1px solid #F1F1F1;
+    height: 52px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.cart_totals_area strong{
+    font-weight: bold;
+}
