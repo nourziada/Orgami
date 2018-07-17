@@ -177,7 +177,12 @@ ul.traning-list li{
     padding: 3px 15px;
     margin: 10px 0;
     background: #ffd19a;
-    border-radius: 3px;
+    border-radius:10px 0px 10px 0;
+}
+ul.traning-list li:hover , ul.traning-list li:nth-child(2n):hover{
+    background: #dc3545;
+    transition: ease-in-out 0.3s ;
+    border-radius:0px 10px 0px 10px;
 }
 ul.traning-list li:nth-child(2n){
     background: #ffb5aa;
