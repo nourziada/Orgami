@@ -98,7 +98,8 @@ time, mark, audio, video {
     text-align: center;
 }
 .xs-menus .nav-menu > li > a{
-    padding: 40px 9px;
+    padding: 40px 8px;
+    font-size: 15px;
 }
 .bg-videos{
     background: #ffc4ba;
@@ -247,4 +248,15 @@ ul.traning-list li .img-user{
 }
 .xs-blog-post-details .post-video a{
     color:#fff;
+}
+#color-store{
+    color:#dc3545;
+}
+@media (max-width: 991px)
+{
+.xs-menus .nav-menu > li > a
+    {
+        padding: 15px 9px;
+        text-align: center;
+    }
 }
