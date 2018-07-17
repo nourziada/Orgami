@@ -200,3 +200,30 @@ padding-right: 5px;
 ul.traning-list li .img-user{
     float: right;
 }
+.training-dt-user{
+    box-shadow: #eaeaea 0px 2px 20px 0px;
+    margin: 0 15px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 10px 0 10px;
+}
+..training-dt-user.training-dt-user-dt{
+    margin-top:15px;
+    text-align:right; 
+}
+.training-dt-user .img-user{
+}
+.training-dt-user .img-user img{
+    background: #ffd19a;
+    padding: 5px;
+    border-radius: 50%;
+}
+.training-dt-user .user-name{
+    font-size: 19px;
+    color: #fd8c76;
+}
+.training-dt-user .desc-user{
+    font-size: 12px;
+    padding: 5px 15px;
+    color: #9a9a9a;
+}
