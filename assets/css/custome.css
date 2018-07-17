@@ -222,6 +222,9 @@ ul.traning-list li .img-user{
     padding: 5px;
     border-radius: 50%;
 }
+.users-training:nth-child(2n) .training-dt-user .img-user img{
+    background: #ffcac2;
+}
 .training-dt-user .user-name a{
     font-size: 19px;
     color: #fd8c76;
@@ -234,4 +237,14 @@ ul.traning-list li .img-user{
 .title-custom-right{
     font-size:18px;
     padding-bottom: 15px;
+}
+.xs-blog-post-details .post-video{
+    background: rgba(248, 135, 123, 0.7);
+    padding: 15px;
+    border-radius: 50%;
+    width: 50px;
+    color: #fff;
+}
+.xs-blog-post-details .post-video a{
+    color:#fff;
 }
