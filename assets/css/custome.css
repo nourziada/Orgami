@@ -170,3 +170,28 @@ time, mark, audio, video {
 padding-bottom: 15px;
 color:#dc3545;
 }
+ul.traning-list{
+    padding: 0 5px;
+}
+ul.traning-list li{
+    padding: 3px 15px;
+    margin: 10px 0;
+    background: #ffd19a;
+    border-radius: 3px;
+}
+ul.traning-list li:nth-child(2n){
+    background: #ffb5aa;
+}
+ul.traning-list li a{
+    color: #fff;
+    display: block;
+    overflow:auto;
+}
+ul.traning-list li .name-user{
+float: right;
+padding-top: 3px;
+padding-right: 5px;
+}
+ul.traning-list li .img-user{
+    float: right;
+}
