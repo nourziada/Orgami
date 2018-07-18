@@ -260,3 +260,41 @@ ul.traning-list li .img-user{
         text-align: center;
     }
 }
+
+
+
+.auction-slider .slick-prev, .auction-slider  .slick-next {
+    background: rgba(220, 53, 69, 0.67);
+    border: none;
+    padding: 50px 14px;
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    top: calc(50% - 75px);
+    z-index: 99;
+    cursor: pointer;
+}
+.auction-slider .slick-prev {
+    left: 0;
+}
+.auction-slider .slick-next {
+    right: 0;
+}
+
+.auction-slider2 .slick-prev, .auction-slider2  .slick-next {
+    border: none;
+    padding: 50px 14px;
+    color: #fb8a79;
+    position: absolute;
+    font-size: 25px;
+    top: calc(50% - 75px);
+    z-index: 99;
+    cursor: pointer;
+    background: transparent;
+}
+.auction-slider2 .slick-prev {
+    left: -40px;
+}
+.auction-slider2 .slick-next {
+    right: -40px;
+}
