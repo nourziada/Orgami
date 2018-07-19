@@ -121,6 +121,7 @@ time, mark, audio, video {
 .custom-cart{
     width: 100%;
     padding: 15px;
+    line-height: 2;
 }
 
 
@@ -137,6 +138,9 @@ time, mark, audio, video {
     height: 50px;
     display: block;
     float: right;
+}
+.custom-cart .title-product a{
+color:#dc3545;
 }
 .custom-cart .form-control{
     width: 100px;
