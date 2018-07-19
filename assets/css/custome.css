@@ -307,3 +307,19 @@ ul.traning-list li .img-user{
     padding: 15px 15px;
     border-radius: 3px;
 }
+
+.custom-top-header .xs-menus .nav-menu > li > a{
+    padding: 0;
+    text-align: right;
+}
+.custom-top-header  .nav-dropdown>li {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+.custom-top-header .xs-menus .nav-menu > li:last-child{
+float: right;
+}
+.xs-top-bar .xs-social-list{
+    text-align: left;
+}
