@@ -171,7 +171,7 @@ color:#dc3545;
     font-weight: bold;
 }
 
-.profile .xs-content-title{
+.xs-content-title{
 padding-bottom: 15px;
 color:#dc3545;
 }
@@ -301,4 +301,9 @@ ul.traning-list li .img-user{
 }
 .auction-slider2 .slick-next {
     right: -40px;
+}
+.form-checkout{
+    background: #f9f9f9;
+    padding: 15px 15px;
+    border-radius: 3px;
 }
